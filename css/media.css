@@ -1,0 +1,26 @@
+@media screen and (max-width: 1250px) {
+  .input-search input {
+    width: 90%;
+  }
+
+  main .container-post {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header h1 {
+    font-size: 2.1rem;
+  }
+
+  .input-search input {
+    background-size: 27px;
+    font-size: 1.05rem;
+    height: 55px;
+  }
+
+  main {
+    margin-top: 3rem;
+  }
+}
